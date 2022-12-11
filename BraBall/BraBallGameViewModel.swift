@@ -35,7 +35,7 @@ class BraBallGameViewModel: ObservableObject {
         screenRect = rect
     }
     
-    func judgeBallPosition() {
+    func judge() {
         guard motionManager.isDeviceMotionActive
         else { return }
         

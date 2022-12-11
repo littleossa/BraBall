@@ -23,7 +23,7 @@ struct BraBallGameView: View {
                     .position(viewModel.currentBallPosition)
             }
             .onTapGesture {
-                viewModel.judgeBallPosition()
+                viewModel.judge()
             }
             .alert(Text(viewModel.result.title),
                    isPresented: $viewModel.shouldPresentedResult,
