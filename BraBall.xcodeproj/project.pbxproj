@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97B3F88F294617EA0033EA22 /* BraBallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3F88E294617EA0033EA22 /* BraBallApp.swift */; };
+		97B3F891294617EA0033EA22 /* BraBallGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3F890294617EA0033EA22 /* BraBallGameView.swift */; };
+		97B3F893294617EB0033EA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B3F892294617EB0033EA22 /* Assets.xcassets */; };
+		97B3F896294617EB0033EA22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B3F895294617EB0033EA22 /* Preview Assets.xcassets */; };
+		97B3F89F294618800033EA22 /* BraBallGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3F89E294618800033EA22 /* BraBallGameViewModel.swift */; };
+		97B3F8A129461A2C0033EA22 /* SoccerBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3F8A029461A2C0033EA22 /* SoccerBall.swift */; };
+		97B3F8A329461A730033EA22 /* SoccerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3F8A229461A730033EA22 /* SoccerField.swift */; };
+		97B3F8A529461B000033EA22 /* View+readFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3F8A429461B000033EA22 /* View+readFrame.swift */; };
+		97B3F8A729461B820033EA22 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3F8A629461B820033EA22 /* CGFloat+Extension.swift */; };
+		97B3F8A929461BF40033EA22 /* GameResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3F8A829461BF40033EA22 /* GameResult.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		97B3F88B294617EA0033EA22 /* BraBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BraBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B3F88E294617EA0033EA22 /* BraBallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraBallApp.swift; sourceTree = "<group>"; };
+		97B3F890294617EA0033EA22 /* BraBallGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraBallGameView.swift; sourceTree = "<group>"; };
+		97B3F892294617EB0033EA22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97B3F895294617EB0033EA22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97B3F89E294618800033EA22 /* BraBallGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraBallGameViewModel.swift; sourceTree = "<group>"; };
+		97B3F8A029461A2C0033EA22 /* SoccerBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerBall.swift; sourceTree = "<group>"; };
+		97B3F8A229461A730033EA22 /* SoccerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerField.swift; sourceTree = "<group>"; };
+		97B3F8A429461B000033EA22 /* View+readFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+readFrame.swift"; sourceTree = "<group>"; };
+		97B3F8A629461B820033EA22 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		97B3F8A829461BF40033EA22 /* GameResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResult.swift; sourceTree = "<group>"; };
+		97B3F8AD29461D3F0033EA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97B3F888294617EA0033EA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97B3F882294617EA0033EA22 = {
+			isa = PBXGroup;
+			children = (
+				97B3F88D294617EA0033EA22 /* BraBall */,
+				97B3F88C294617EA0033EA22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97B3F88C294617EA0033EA22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97B3F88B294617EA0033EA22 /* BraBall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97B3F88D294617EA0033EA22 /* BraBall */ = {
+			isa = PBXGroup;
+			children = (
+				97B3F8AD29461D3F0033EA22 /* Info.plist */,
+				97B3F88E294617EA0033EA22 /* BraBallApp.swift */,
+				97B3F890294617EA0033EA22 /* BraBallGameView.swift */,
+				97B3F89E294618800033EA22 /* BraBallGameViewModel.swift */,
+				97B3F8AC29461C5C0033EA22 /* Enum */,
+				97B3F8AB29461C4F0033EA22 /* VIew */,
+				97B3F8AA29461C460033EA22 /* Extension */,
+				97B3F892294617EB0033EA22 /* Assets.xcassets */,
+				97B3F894294617EB0033EA22 /* Preview Content */,
+			);
+			path = BraBall;
+			sourceTree = "<group>";
+		};
+		97B3F894294617EB0033EA22 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97B3F895294617EB0033EA22 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97B3F8AA29461C460033EA22 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				97B3F8A429461B000033EA22 /* View+readFrame.swift */,
+				97B3F8A629461B820033EA22 /* CGFloat+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		97B3F8AB29461C4F0033EA22 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				97B3F8A029461A2C0033EA22 /* SoccerBall.swift */,
+				97B3F8A229461A730033EA22 /* SoccerField.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		97B3F8AC29461C5C0033EA22 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				97B3F8A829461BF40033EA22 /* GameResult.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97B3F88A294617EA0033EA22 /* BraBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97B3F899294617EB0033EA22 /* Build configuration list for PBXNativeTarget "BraBall" */;
+			buildPhases = (
+				97B3F887294617EA0033EA22 /* Sources */,
+				97B3F888294617EA0033EA22 /* Frameworks */,
+				97B3F889294617EA0033EA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BraBall;
+			productName = BraBall;
+			productReference = 97B3F88B294617EA0033EA22 /* BraBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97B3F883294617EA0033EA22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					97B3F88A294617EA0033EA22 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 97B3F886294617EA0033EA22 /* Build configuration list for PBXProject "BraBall" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97B3F882294617EA0033EA22;
+			productRefGroup = 97B3F88C294617EA0033EA22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97B3F88A294617EA0033EA22 /* BraBall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97B3F889294617EA0033EA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B3F896294617EB0033EA22 /* Preview Assets.xcassets in Resources */,
+				97B3F893294617EB0033EA22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97B3F887294617EA0033EA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B3F8A529461B000033EA22 /* View+readFrame.swift in Sources */,
+				97B3F891294617EA0033EA22 /* BraBallGameView.swift in Sources */,
+				97B3F8A329461A730033EA22 /* SoccerField.swift in Sources */,
+				97B3F8A129461A2C0033EA22 /* SoccerBall.swift in Sources */,
+				97B3F8A929461BF40033EA22 /* GameResult.swift in Sources */,
+				97B3F89F294618800033EA22 /* BraBallGameViewModel.swift in Sources */,
+				97B3F88F294617EA0033EA22 /* BraBallApp.swift in Sources */,
+				97B3F8A729461B820033EA22 /* CGFloat+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		97B3F897294617EB0033EA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97B3F898294617EB0033EA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97B3F89A294617EB0033EA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BraBall/Preview Content\"";
+				DEVELOPMENT_TEAM = 2V4975L824;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BraBall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lilossa.BraBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97B3F89B294617EB0033EA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BraBall/Preview Content\"";
+				DEVELOPMENT_TEAM = 2V4975L824;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BraBall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lilossa.BraBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97B3F886294617EA0033EA22 /* Build configuration list for PBXProject "BraBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B3F897294617EB0033EA22 /* Debug */,
+				97B3F898294617EB0033EA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97B3F899294617EB0033EA22 /* Build configuration list for PBXNativeTarget "BraBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B3F89A294617EB0033EA22 /* Debug */,
+				97B3F89B294617EB0033EA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97B3F883294617EA0033EA22 /* Project object */;
+}
